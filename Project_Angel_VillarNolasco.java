@@ -39,6 +39,7 @@ public class Project_Angel_VillarNolasco {
          } else if (scanObj.nextLine().equalsIgnoreCase("N")) {
             smoking = false;
          }
+         scanObj.nextLine();// Consume the newline
 
          System.out.print("please input the policy holder's height:");
          height = scanObj.nextDouble();

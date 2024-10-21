@@ -17,7 +17,7 @@ public class Policy{
    }
    
    // policy constructor
-   public Policy(String provider; String name; String lName; int age; boolean smoking; double height; double weight; int bmi; double price){
+   public Policy(String provider, String name, String lName, int age, boolean smoking, double height, double weight, int bmi, double price){
    
    policyProvider = provider;
    policyHolderName = name;
