@@ -20,10 +20,25 @@ public class Project_Angel_VillarNolasco {
    double price = 0;
    
    //main class looping variables
-   boolean repeat;
+   boolean repeat = false;
+   
+   //main loop
+   while (repeat = false){
+   
+   System.out.print("please input the policy holder's name:");
+   name = scanObj.nextLine();
+   
+   System.out.print("please input the policy holder's last name:");
+   lName = scanObj.nextLine();
+   
+   System.out.print("please input the policy holder's age:");
+   age = scanObj.nextInt();
+   
+   
+   
    
    Policy customerPolicy = new Policy(provider, name, lName, age, smoking, height, weight, bmi, price);
-
+   }
    
    }
 }
