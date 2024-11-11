@@ -7,15 +7,9 @@ public class Project_Angel_VillarNolasco {
    public static void main(String[] args) throws IOException {
    
       // variables
-      String providerName;
-      String policyNumber;
-      String firstName;
-      String lastName;
-      int age;
-      String smokingStatus;
-      double height;
-      double weight;
-      int numSmokers = 0;
+      String providerName, policyNumber, firstName, lastName, smokingStatus;
+      int age, numSmokers = 0; 
+      double height, weight; 
       
       // arraylist
       ArrayList<Policy> policyList = new ArrayList<Policy>();
